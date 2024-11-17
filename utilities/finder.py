@@ -10,7 +10,7 @@ class Finder:
         binary_matrices = self.__pdf_to_binary_matrix(pdf_path)
         print("The image was converted to binary")
 
-        new_image_name = "output" + datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        new_image_name = "sensible_assets/outputs/output" + datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + ".png"
         self.__highlight_largest_rectangle(binary_matrices[0], new_image_name)
         print(f"The image with the colored rectangle was saved with the name {new_image_name}")
 
