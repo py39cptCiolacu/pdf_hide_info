@@ -1,8 +1,7 @@
 # How to use the project
 
 - first step - virtual env 
-```
-python
+```python
 python -m venv pdf_hide
 ```
 
