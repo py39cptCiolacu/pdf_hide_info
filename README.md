@@ -4,6 +4,7 @@
 ```
 python
 python -m venv pdf_hide
+```
 
 - second step: assests - create a folder /sensible_assests and place the PDFs in there
 
